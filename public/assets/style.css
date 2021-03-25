@@ -1,0 +1,112 @@
+.header{
+	width: 100%;
+	overflow: hidden;
+}
+
+#logo-header{
+	width: 72px;
+	height: 72px;
+}
+
+.bg-transparent {
+	background-color: none;
+}
+
+.header-bg-menu{
+	background-color: rgba(0,0,0,0);
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+
+.img-bg-header{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	overflow: hidden;
+	z-index: -1;
+}
+.bg-filterdark{
+	filter: brightness(50%);
+}
+
+.navbar{
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+.navbar-solid{
+	z-index: 2;
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+
+.nav-item{
+	font-weight: 500;
+}
+
+#svg-header-brand{
+	position: absolute;
+	left: 5vw;
+	z-index: 1;
+}
+
+#svg-header-bor-btm-menu{
+	position: absolute;
+	left: 0;
+	top: 372.61px;
+	z-index: 1;
+}
+
+.hidden-elm{
+	visibility: hidden;
+}
+.transparent{
+	background-color: transparent;
+}
+.black{
+	background-color: black;
+}
+.btn-alpha-grey{
+	background-color: rgba(54,54,54,.8);
+}
+.btn-alpha-grey:hover{
+	background-color: rgba(150,150,150,.8);
+}
+
+
+.tagline-container{
+	object-fit: fill;
+}
+
+
+.hspace-xl{
+	margin-top: 250px;
+}
+.hspace-lg{
+	margin-top: 200px;
+}
+.hspace-md{
+	margin-top: 150px;
+}
+.hspace-sm{
+	margin-top: 100px;
+}
+.hspace-xs{
+	margin-top: 50px;
+}
+
+/* On screens that are 767px wide or less */
+@media screen and (max-width: 767px) {
+	#svg-header-bor-btm-menu{
+		top: 385px;
+	}
+}
+
+/* On screens that are 575px wide or less */
+@media screen and (max-width: 575px) {
+	#svg-header-bor-btm-menu{
+		top: 390px;
+	}
+}
